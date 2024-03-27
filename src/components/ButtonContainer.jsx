@@ -5,7 +5,7 @@ function ButtonContainer({onButtonClick}){
     return(
         <>
         {num.map((item)=>(
-            <Buttons number={item}/>
+            <Buttons number={item} onClick={() => {onButtonClick(buttonName)}}/>
         ))}
         </>
     )
