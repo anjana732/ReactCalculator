@@ -1,7 +1,7 @@
-function Display(){
+function Display({displayValue}){
     return(
         <>
-            <input type="text"></input>
+            <input type="text" value={displayValue}></input>
         </>
     )
 }
